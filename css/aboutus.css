@@ -1,0 +1,202 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-image: url(/imgs/704513-purple-violet-colors-color-pantone-ultra-violet.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+
+/* Nav Top */
+nav {
+    background-color: #111;
+    padding: 0px 10px 0px 10px;
+}
+
+.navTop {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.navText {
+    color: aliceblue;
+    font-size: 100px;
+    text-decoration: underline;
+}
+
+
+
+
+/* Dropdown */
+.dropbtn {
+    background-color: rgb(150, 9, 150);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    width: 120px;
+    display: none;
+    position: absolute;
+    background-color: #111;
+    box-shadow: 0px 8px 16px 0px rgb(150, 9, 150);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #979090;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+
+/* Home About us Bio */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Passero One', cursive;
+    font-size: 30px;
+    overflow: hidden;
+    background-color: #141414;
+    margin: 0px 100px 0px 100px;
+    padding: 0px 400px;
+    display: flex;
+    justify-content: space-evenly
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(29, 28, 28);
+}
+
+
+
+
+/* Video */
+.video {
+    text-align: center;
+    margin: 10px 0px
+}
+
+
+
+
+/* Cards */
+.containercards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: aliceblue;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 8px 16px 0px rgb(150, 9, 150);
+    width: 400px;
+    height: 300px;
+    margin: 70px;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.cardimage {
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    padding: 5px;
+}
+
+.image1 {
+    background-image: url(/imgs/nike-logo-black-clothes-design-icon-abstract-football-illustration-with-white-background-free-vector.jpg);
+    width: 200px;
+    border-radius: 20px;
+}
+
+.image2 {
+    background-image: url(/imgs/adidas-ag-multinational-corporation-founded-headquartered-herzogenaurach-germany-designs-manufactures-shoes-139136442.jpg);
+    width: 200px;
+    border-radius: 20px;
+}
+
+.image3 {
+    background-image: url(/imgs/newbalancelogo.png);
+    width: 200px;
+    border-radius: 20px;
+}
+
+
+
+
+
+/* Footer */
+footer {
+    margin-top: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.address {
+    text-align: center;
+    color: aliceblue;
+    display: block;
+    font-style: italic;
+    padding: 0px 0px 10px 0px;
+
+}
+
+.socialicons {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 0px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
