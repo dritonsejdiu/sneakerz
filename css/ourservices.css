@@ -1,7 +1,7 @@
 body {
     margin: 0%;
     padding: 0%;
-    background-image: url(/imgs/704513-purple-violet-colors-color-pantone-ultra-violet.jpg);
+    background-image: url(imgs/704513-purple-violet-colors-color-pantone-ultra-violet.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -155,17 +155,17 @@ li a:hover {
 }
 
 .image1 {
-    background-image: url(/imgs/designyourownsneakers.webp);
+    background-image: url(imgs/designyourownsneakers.webp);
     width: 150px;
 }
 
 .image2 {
-    background-image: url(/imgs/worldwide-shipping.png);
+    background-image: url(imgs/worldwide-shipping.png);
     width: 150px;
 }
 
 .image3 {
-    background-image: url(/imgs/delivery-distribution-and-storage-logo-vector-23620062.webp);
+    background-image: url(imgs/delivery-distribution-and-storage-logo-vector-23620062.webp);
     width: 200px;
 }
 
